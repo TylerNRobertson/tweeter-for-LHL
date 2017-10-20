@@ -1,0 +1,85 @@
+.clearFix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+article.tweet {
+  border-radius: 15px 15px 15px;
+  border: 1px solid #adadad;
+  margin-top: 20px;
+}
+article.tweet:hover {
+  border-radius: 15px 15px 15px;
+  border: 1px solid #4a4b4c;
+}
+
+article.tweet h2 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-left: 20px;
+  line-height: 70px;
+  color: #427584;
+  background-color: #eee;
+}
+article.tweet:hover h2 {
+  color: #244751;
+}
+
+ article.tweet p.tweetContent {
+  padding: 10px;
+  margin: 0;
+  background-color: #fff;
+}
+
+article.tweet p.userHandle {
+  float: right;
+  color: #868a8c;
+  margin-right: 20px;
+  line-height: 40px;
+}
+article.tweet:hover p.userHandle {
+  color: #4a4b4c;
+}
+
+article.tweet footer p.timeStamp {
+ padding-top: 10px;
+ padding-left: 10px;
+ font-size: 16px;
+ color: #868a8c;
+ border-top: 2px solid #adadad;
+}
+article.tweet:hover footer p.timeStamp {
+  color: #4a4b4c;
+}
+
+article.tweet img.userImage {
+  border-radius: 15px 15px 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+}
+
+article.tweet header.tweetHeader {
+  background-color: #eee;
+  margin: 0;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+article.tweet footer i.action {
+  display: none;
+}
+article.tweet:hover footer i.action {
+  display: inline;
+  margin: 5px;
+  color: #244751;
+  line-height: 30px;
+  float: right;
+  text-decoration: none;
+}
+article.tweet footer i.action:hover {
+  color: #427584;
+}
