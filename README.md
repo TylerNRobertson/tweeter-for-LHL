@@ -6,7 +6,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Tweeter Screenshots
 !["Main Page"](https://github.com/TylerNRobertson/tweeter-for-LHL/blob/master/public/images/tweetermain.png)
-!["Tweeting"](https://github.com/TylerNRobertson/tweeter-for-LHL/blob/master/public/images/tweeter.mp4)
+!["Tweeting"](https://github.com/TylerNRobertson/tweeter-for-LHL/blob/master/public/images/tweeting.png)
 
 ## Dependencies
 
