@@ -103,5 +103,7 @@ function formChecker (form) {
       $('#tweetArea').select();
   });
 
+// Like Count
+
 // Calling functions
 loadTweets();
